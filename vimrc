@@ -23,15 +23,3 @@ set showcmd
 set paste
 
 set nocompatible
-filetype off
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-    Plugin 'gmarik/Vundle.vim'
-    Plugin 'tpope/vim-fugitive'
-    Plugin 'L9'
-    Plugin 'git://git.wincent.com/command-t.git'
-    Plugin 'file:///home/gmarik/path/to/plugin'
-    Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
-    Plugin 'user/L9', {'name': 'newL9'}
-call vundle#end()
-filetype plugin indent on
